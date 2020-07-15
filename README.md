@@ -33,9 +33,9 @@ Django DRF, VueJS as frontend.
 
 ### Database and Use cases design
 
-https://dbdiagram.io/
-https://miro.com/app/dashboard/
-https://app.lucidchart.com/
+* https://dbdiagram.io/
+* https://miro.com/app/dashboard/
+* https://app.lucidchart.com/
 
 I'm starting with lucidchart.
 
