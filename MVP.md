@@ -17,7 +17,7 @@ Let's start with list of business-processes.
 
 #### User registration
 
-<div style="width: 960px; height: 720px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:960px; height:720px" src="https://app.lucidchart.com/documents/embeddedchart/ad08bb93-20a2-4966-ba10-1773f859e266" id="gX6hT1sZ7b0d"></iframe></div>
+[BP flowchart](https://app.lucidchart.com/documents/view/ad08bb93-20a2-4966-ba10-1773f859e266)
 
 This MVP will be used with telegram-bot. 
 So when we would like to register, we have to specify:
