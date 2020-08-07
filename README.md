@@ -43,4 +43,10 @@ I'm starting with lucidchart.
 
 Django DRF
 
+### Frontend
+
+#### Telegram
+
+API: https://core.telegram.org/bots/api
+
 

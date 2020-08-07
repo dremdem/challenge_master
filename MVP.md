@@ -11,6 +11,16 @@ like workflow for my application.
 
 Let's start with list of business-processes.
 
+## Database
+
+This is MVP, isn't it? The fancy approach... Dash it! Let's leave SQLLite by default.
+
+## Django Applications
+
+### Telegram 
+
+Will server all API for telegram bot interactions
+
 ## Flowcharts
 
 ### Business processes 

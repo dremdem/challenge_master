@@ -1,3 +1,13 @@
+07.08.2020 13:53
+
+Add command to set webhook
+
+
+31.07.2020 02:05
+
+Registered the bot:  t.me/challenge_master_bot.
+Add BP flowchart for the user registration
+
 15.07.2020 13:39
 
 The starting point of the project.

@@ -12,6 +12,9 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 
 import os
 
+from dotenv import load_dotenv
+load_dotenv()
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -20,7 +23,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'o#b@4()#!^5@*uzfp9k0f!ye9-b43zc(1c4wf-1s4=r!_$^7z@'
+SECRET_KEY = os.getenv("SECRET_KEY")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+TELEGRAM_URL = "https://api.telegram.org/bot"
+MY_DOMAIN_NAME = os.getenv("MY_DOMAIN_NAME")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -36,6 +42,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'telegram.apps.TelegramConfig'
 ]
 
 MIDDLEWARE = [
