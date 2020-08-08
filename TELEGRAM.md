@@ -49,7 +49,13 @@ Ouch.. Let's do it.
 
 Well done.
 
-Put my ip-adress to a env var: MY_DOMAIN_NAME
+Put my ip-address to a env var: MY_DOMAIN_NAME
+
+As teleapi suggests, let's make a route for a web hook like: 
+/tg/<settings.BOT_TOKEN>/
+
+
+
 
 * If we can get some unique chat_id associated with user, we can identify user next time
 * What if a user join to channel and then leave it and then join it again. Will it be the same chat_id ? 
