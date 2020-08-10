@@ -54,6 +54,23 @@ Put my ip-address to a env var: MY_DOMAIN_NAME
 As teleapi suggests, let's make a route for a web hook like: 
 /tg/<settings.BOT_TOKEN>/
 
+WHOAAAAAA!!!
+Holy crap...
+
+https://core.telegram.org/bots/webhooks
+>Setting a webhook needs a URL for us to post to. For that you'll need a server with a domain name. 
+>If you don't have one, you'll need to obtain one first.  
+
+Shoot me please.
+One day of tests and all that for nothing.
+
+Ok, I have to gather my thoughts.
+
+1. I have to redirect one of my domain names to my VPS.
+2. Make cert with certbot as many of developers done.
+3. Profit!! 
+
+
 
 
 
