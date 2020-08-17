@@ -26,6 +26,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.getenv("SECRET_KEY")
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 TELEGRAM_URL = "https://api.telegram.org/bot"
+BOT_API_URL = f'{TELEGRAM_URL}{BOT_TOKEN}/'
 MY_DOMAIN_NAME = os.getenv("MY_DOMAIN_NAME")
 
 # SECURITY WARNING: don't run with debug turned on in production!

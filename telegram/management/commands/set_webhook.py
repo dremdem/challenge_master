@@ -4,11 +4,11 @@ https://core.telegram.org/bots/webhooks
 https://core.telegram.org/bots/self-signed
 """
 
-from django.core.management.base import BaseCommand, CommandError
+from django.core.management.base import BaseCommand
 from django.conf import settings
 import requests
 
-from telegram.utils import get_api_url
+from telegram.utils import get_webhook_url
 
 
 class Command(BaseCommand):
@@ -21,7 +21,7 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
 
         payload = {
-            'url': get_api_url(options['port']),
+            'url': get_webhook_url(options['port']),
         }
 
         set_webhook_url = f'{settings.TELEGRAM_URL}{settings.BOT_TOKEN}/setWebhook'

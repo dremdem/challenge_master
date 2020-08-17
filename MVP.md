@@ -15,6 +15,17 @@ Let's start with list of business-processes.
 
 This is MVP, isn't it? The fancy approach... Dash it! Let's leave SQLLite by default.
 
+## Models
+
+### Profile
+
+To extend users info I'm going to use a [*Profile* approach](https://tproger.ru/translations/extending-django-user-model/#var2).
+
+I shave to add :
+* sex
+* age 
+fields to a standard users model.
+
 ## Django Applications
 
 ### Telegram 
